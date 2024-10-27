@@ -48,7 +48,7 @@ section p {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
-    width: 200px;
+    width: 250px; /* Изменено на 250px для большей площади */
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -61,8 +61,25 @@ section p {
     color: #007BFF;
     margin-bottom: 10px;
 }
+.service-card p {
+    margin-bottom: 20px;
+}
 
-/* Стили кнопки */
+/* Стили кнопки внутри карточек */
+.service-card button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.service-card button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили кнопки связи */
 .contact-button {
     text-align: center;
     margin: 20px 0;
